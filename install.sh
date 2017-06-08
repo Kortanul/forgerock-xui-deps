@@ -15,8 +15,8 @@ mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=jq
 mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=lodash -Dversion=3.10.1 -Dclassifier=min -Dpackaging=js -Dfile=js/lodash-3.10.1-min.js
 mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=spin -Dversion=2.0.1 -Dclassifier=min -Dpackaging=js -Dfile=js/spin-2.0.1-min.js
 mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=xdate -Dversion=0.8 -Dclassifier=min -Dpackaging=js -Dfile=js/xdate-0.8-min.js
-mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=js2form -Dversion=2.0 -Dpackaging=js -Dfile=js/js2form-2.0.js
-mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=form2js -Dversion=2.0 -Dpackaging=js -Dfile=js/form2js-2.0.js
+mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=js2form -Dversion=2.0-769718a -Dpackaging=js -Dfile=js/js2form-2.0-769718a.js
+mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=form2js -Dversion=2.0-769718a -Dpackaging=js -Dfile=js/form2js-2.0-769718a.js
 mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=jquery.placeholder -Dversion=2.0.8 -Dpackaging=js -Dfile=js/jquery.placeholder-2.0.8.js
 mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=bootstrap -Dversion=3.3.5 -Dclassifier=custom -Dpackaging=js -Dfile=js/bootstrap-3.3.5-custom.js
 mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=titatoggle -Dversion=1.2.6 -Dclassifier=min -Dpackaging=css -Dfile=css/titatoggle-1.2.6-min.css
