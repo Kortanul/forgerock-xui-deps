@@ -22,7 +22,7 @@ mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=bo
 mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=titatoggle -Dversion=1.2.6 -Dclassifier=min -Dpackaging=css -Dfile=css/titatoggle-1.2.6-min.css
 mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=selectize -Dversion=0.12.1 -Dclassifier=min -Dpackaging=js -Dfile=js/selectize-0.12.1-min.js
 mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=bootstrap-dialog -Dversion=1.34.4 -Dclassifier=min -Dpackaging=js -Dfile=js/bootstrap-dialog-1.34.4-min.js
-mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=font-awesome -Dversion=4.3.0 -Dpackaging=zip -Dfile=fonts/font-awesome-4.3.0.zip
+mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=font-awesome -Dversion=4.5.0 -Dpackaging=zip -Dfile=fonts/font-awesome-4.5.0.zip
 mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=backgrid.min -Dversion=0.3.5 -Dpackaging=less -Dfile=less/backgrid.min-0.3.5.less
 mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=backgrid-paginator.min -Dversion=0.3.5 -Dpackaging=css -Dfile=css/backgrid-paginator.min-0.3.5.css
 mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=backgrid-filter.min -Dversion=0.3.5 -Dpackaging=css -Dfile=css/backgrid-filter.min-0.3.5.css
