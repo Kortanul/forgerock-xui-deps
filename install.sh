@@ -1,6 +1,7 @@
 #!/bin/bash
 
 mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=dragula -Dversion=3.6.7 -Dclassifier=min -Dpackaging=js -Dfile=js/dragula-3.6.7-min.js
+mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=text -Dversion=2.0.15 -Dpackaging=js -Dfile=js/text-2.0.15.js
 mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=jquery.ba-dotimeout -Dversion=1.0 -Dclassifier=min -Dpackaging=js -Dfile=js/jquery.ba-dotimeout-1.0-min.js
 mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=moment -Dversion=2.8.1 -Dclassifier=min -Dpackaging=js -Dfile=js/moment-2.8.1-min.js
 mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=handlebars -Dversion=4.0.5 -Dclassifier=min -Dpackaging=js -Dfile=js/handlebars-4.0.5-min.js
