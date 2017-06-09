@@ -4,6 +4,7 @@ mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=dr
 mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=text -Dversion=2.0.15 -Dpackaging=js -Dfile=js/text-2.0.15.js
 mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=jquery.ba-dotimeout -Dversion=1.0 -Dclassifier=min -Dpackaging=js -Dfile=js/jquery.ba-dotimeout-1.0-min.js
 mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=moment -Dversion=2.8.1 -Dclassifier=min -Dpackaging=js -Dfile=js/moment-2.8.1-min.js
+mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=handlebars -Dversion=3.0.3 -Dclassifier=min -Dpackaging=js -Dfile=js/handlebars-3.0.3-min.js
 mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=handlebars -Dversion=4.0.5 -Dpackaging=js -Dfile=js/handlebars-4.0.5.js
 mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=i18next -Dversion=1.7.3 -Dclassifier=min -Dpackaging=js -Dfile=js/i18next-1.7.3-min.js
 mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=requirejs -Dversion=2.1.14 -Dclassifier=min -Dpackaging=js -Dfile=js/requirejs-2.1.14-min.js
