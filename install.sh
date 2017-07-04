@@ -1,7 +1,11 @@
 #!/bin/bash
+
+mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=dragula -Dversion=3.6.7 -Dclassifier=min -Dpackaging=js -Dfile=js/dragula-3.6.7-min.js
+mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=text -Dversion=2.0.15 -Dpackaging=js -Dfile=js/text-2.0.15.js
 mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=jquery.ba-dotimeout -Dversion=1.0 -Dclassifier=min -Dpackaging=js -Dfile=js/jquery.ba-dotimeout-1.0-min.js
 mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=moment -Dversion=2.8.1 -Dclassifier=min -Dpackaging=js -Dfile=js/moment-2.8.1-min.js
 mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=handlebars -Dversion=3.0.3 -Dclassifier=min -Dpackaging=js -Dfile=js/handlebars-3.0.3-min.js
+mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=handlebars -Dversion=4.0.5 -Dpackaging=js -Dfile=js/handlebars-4.0.5.js
 mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=i18next -Dversion=1.7.3 -Dclassifier=min -Dpackaging=js -Dfile=js/i18next-1.7.3-min.js
 mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=requirejs -Dversion=2.1.14 -Dclassifier=min -Dpackaging=js -Dfile=js/requirejs-2.1.14-min.js
 mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=backbone -Dversion=1.1.2 -Dclassifier=min -Dpackaging=js -Dfile=js/backbone-1.1.2-min.js
@@ -15,14 +19,14 @@ mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=jq
 mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=lodash -Dversion=3.10.1 -Dclassifier=min -Dpackaging=js -Dfile=js/lodash-3.10.1-min.js
 mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=spin -Dversion=2.0.1 -Dclassifier=min -Dpackaging=js -Dfile=js/spin-2.0.1-min.js
 mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=xdate -Dversion=0.8 -Dclassifier=min -Dpackaging=js -Dfile=js/xdate-0.8-min.js
-mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=js2form -Dversion=2.0 -Dpackaging=js -Dfile=js/js2form-2.0.js
-mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=form2js -Dversion=2.0 -Dpackaging=js -Dfile=js/form2js-2.0.js
+mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=js2form -Dversion=2.0-769718a -Dpackaging=js -Dfile=js/js2form-2.0-769718a.js
+mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=form2js -Dversion=2.0-769718a -Dpackaging=js -Dfile=js/form2js-2.0-769718a.js
 mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=jquery.placeholder -Dversion=2.0.8 -Dpackaging=js -Dfile=js/jquery.placeholder-2.0.8.js
 mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=bootstrap -Dversion=3.3.5 -Dclassifier=custom -Dpackaging=js -Dfile=js/bootstrap-3.3.5-custom.js
 mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=titatoggle -Dversion=1.2.6 -Dclassifier=min -Dpackaging=css -Dfile=css/titatoggle-1.2.6-min.css
 mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=selectize -Dversion=0.12.1 -Dclassifier=min -Dpackaging=js -Dfile=js/selectize-0.12.1-min.js
 mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=bootstrap-dialog -Dversion=1.34.4 -Dclassifier=min -Dpackaging=js -Dfile=js/bootstrap-dialog-1.34.4-min.js
-mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=font-awesome -Dversion=4.3.0 -Dpackaging=zip -Dfile=fonts/font-awesome-4.3.0.zip
+mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=font-awesome -Dversion=4.5.0 -Dpackaging=zip -Dfile=fonts/font-awesome-4.5.0.zip
 mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=backgrid.min -Dversion=0.3.5 -Dpackaging=less -Dfile=less/backgrid.min-0.3.5.less
 mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=backgrid-paginator.min -Dversion=0.3.5 -Dpackaging=css -Dfile=css/backgrid-paginator.min-0.3.5.css
 mvn install:install-file -DgroupId=org.forgerock.commons.ui.libs -DartifactId=backgrid-filter.min -Dversion=0.3.5 -Dpackaging=css -Dfile=css/backgrid-filter.min-0.3.5.css
